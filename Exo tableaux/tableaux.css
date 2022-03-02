@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Shizuru&display=swap');
+
+@keyframes animation{
+    10%{background-color: rgb(243, 109, 132);}
+    20%{background-color: rgb(241, 21, 94);}
+    40%{background-color: rgb(150, 3, 106);}
+    60%{background-color: brown;}
+    100%{background-color: rgb(3, 71, 48);}
+}
+@keyframes titre{
+    50%{color: azure;}
+    100%{color: black;}
+}
+@keyframes entete{
+    50%{color: black;}
+    100%{color: azure;}
+}
+td,th{
+    border: 3px solid black;
+    text-align: center;
+}
+table{
+    background-color: black;
+    animation-name: animation;
+    -webkit-animation-delay: 2s;
+    animation: animation 5s infinite;
+    border-collapse: collapse;
+    height: 400px;
+    width: 800px;
+    margin: 100px auto;
+}
+caption{
+    font-family: 'Shizuru', cursive;
+    animation: titre 3s infinite;
+    animation-name: titre;
+}
+th{
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    animation-name: entete;
+    animation: entete 1s infinite;
+}
+td{
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+    animation: titre 1s infinite;
+    animation-name: titre;
+}
+body{
+  background-color: rgb(8, 8, 8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
